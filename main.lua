@@ -32,6 +32,11 @@ local Misc = Window:AddMenu({
 	Icon = "settings"
 })
 
+local Anti-Aim = Window:AddMenu({
+	Name = "Anti-Aim",
+	Icon = "crosshair"
+})
+
 do
 	local Weapon = Rage:AddSection({
 		Position = 'left',
